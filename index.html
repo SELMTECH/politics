@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political Campaign</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#">
+            <img src="log.png" alt="Political Campaign Logo" style="height: 2em; width: 6em; margin-left: 2em;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-green"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item">
+                    <a class=" nav-link" href="index.html" style="color: rgb(228, 224, 224);"><i
+                            class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" style="color: green;"> About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="achievement.html" style="color: green;"> Achievements</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pledge.html" style="color: green;"> Pledge</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec"></i> Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-small-text">Chief Tosan Atle Aiboni</p>
+            <h1 class="hero-heading">A Vision for the Future of LUCOSA</h1>
+            <p class="hero-paragraph"> A distinguished legal professional with over two decades of expertise in
+                corporate and immigration law across Nigeria and the UK, and a driving force behind LUCOSA's global
+                growth and unity."
+            </p>
+            <a href="#endorse"> <button class="btn-endorse">Endorsement</button></a>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h3 class="story-heading">About</h3>
+        <h2 class="about-heading">Chief Tosan Atle Aiboni </h2>
+        <div class="about-container">
+            <!-- Text Section -->
+            <div class="about-text">
+                <h1>A legal luminary and devoted LUCOSA leader</h1>
+                <p>Chief Tosan Atle Aiboni is a distinguished legal professional whose journey through corporate law,
+                    governance, and immigration law in both Nigeria and the United Kingdom has spanned over two decades.
+                    His legal career includes prestigious roles such as Legal Manager at Consolidated Breweries Plc and
+                    Nigerian Breweries Plc, and later as Company Secretary/Legal Adviser at Benue Bottling Company
+                    Limited. He presently sits on the management of several blue chip companies within
+                    Nigeria and Europe</p>
+                <p>Currently, He is a founding partner at Victoria Chambers in Nigeria and Victoria Solicitors Limited
+                    in the UK,
+                    Chief Aiboni advises multinational corporations and has established a reputation for his meticulous
+                    attention to detail and results-oriented approach.</p>
+
+
+                <div class="button-container">
+                    <a href="#endorse"> <button class="btn-endorse">Endorsement</button></a>
+                    <a href="about.html"><button class="btn-read-more">Read More</button></a>
+                </div>
+            </div>
+
+
+            <!-- Image Section -->
+            <div class="about-image">
+                <img src="pic.jpg" alt="20+ Years Experience">
+                <div class="experience-text">20+ Years Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <section class="sec" id="sec">
+
+        <h2>LUCOSA </h2>
+        <div class="container">
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="1.jpg" alt="Trust & Co." onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUMEN CHRISTI</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging"> OLD STUDENT ASSOCIATION</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="2.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">ALUMNI BUILDING</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="3.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">GLOBAL INVESTMENT</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="4.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUMEN CHRISTI </li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">MULTI PURPOSE COOPERATIVE SOCIETY</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="o.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUMEN CHRISTI </li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">FOREMOST LUCOSA JOB HOSTED BY LAGOS CHAPTER
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="no6.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">Presentation of donation to former teacher who
+                            became blind Mr Cyril Ojemen in 2019 by Paul Usenbo Esq (former president),Chief Tosan
+                            Aiboni(former governor of Lagos Chapter) and members of Lagos Chapter</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="no7.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">Presentation of Award by pioneer Emeritus
+                            President Dr Micheal Ezeanochie during the AGM hosted in Lagos 2015</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="5.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">Award presentation at anniversary of the class
+                            of 1996 in recognition of sterling leadership in 2018
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="6.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Award presentation at 25th anniversary of the
+                            class of 1999.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="Economy ePaper 1st Feb 2021 2_page-0001.jpg" alt="Tonic"
+                                onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Lagos Chapter Community Service
+                            Initiative CSR 2021</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="no11.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Lagos Chapter Community Service
+                            Initiative CSR 2021</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="7.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Class of 1995 in the year 1994</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="9.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">One Family (Class of 1995) 25th Anniversary in
+                            Dubai, February 2020.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="10.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">We are United</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="IMG-20240920-WA0036.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="IMG-20240920-WA0041.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="IMG-20240920-WA0042.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="IMG-20240920-WA0043.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="IMG-20240920-WA0044.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="17.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Lagos Chapter 2016- From right : Daniel
+                            Obiomah( Treasurer) Chief Tosan Aiboni(Secretary),Emeritus Governor Ero Okungbowa and
+                            members of the chapter</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="16.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Lucosa UK Chapter hosted our President
+                            -Kingsley Oseghale and Rev Fr Idahosa</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="jew.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">Merchandise</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="card" style="border: none;">
+                <div class="card-inner" style="--clr:#fff;">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="11.jpg" alt="Tonic" onclick="openModal(this)">
+                        </div>
+                        <div class="icon">
+                            <a class="iconBox"> <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>LUCOSA</h3>
+
+                    <ul>
+                        <li style="--clr-tag:#d3b19a;" class="branding">LUCOSA</li>
+                        <li style="--clr-tag:#70b3b1;" class="packaging">In Unity we stand together #autceasarautnihil.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <section class="endorsement-section">
+        <h2>Endorsements</h2>
+        <div class="endorsement-grid">
+            <div class="endorsement-card card-rectangle">
+                <div class="endorser">
+                    <img src="tes1.jpg" alt="Endorser Image" class="endorser-image">
+                    <p class="endorser-name">Barr Emeka Enwerem
+                    </p>
+                </div>
+                <p class="endorsement-paragraph">“ I am Lumenite from the pioneer set of 1992.We studied Law together
+                    and called to bar same year.I have worked closely with Chief Tosan Atle Aiboni Esq over the years as
+                    pioneer members of our esteemed association, and I can confidently say that his leadership and
+                    strategic insights have been instrumental in driving LUCOSA forward. His ardent commitment to
+                    expanding the LUCOSA shows his deep passion for giving back and leaving a legacy to the next
+                    generation of Lumen Christi students. I fully endorse his vision for growth and inclusion within
+                    the association. ”</p>
+            </div>
+            <div class="endorsement-card card-rectangle">
+                <div class="endorser">
+                    <img src="tes2.jpg" alt="Endorser Image" class="endorser-image">
+                    <p class="endorser-name">Ejus Ubuane Ekpo
+                    </p>
+                </div>
+                <p class="endorsement-paragraph">“ Chief Aiboni’s initiative to networking and creating value chain is
+                    unequalled.Over years he has leveraged this to create employment not just within his law firm in
+                    Nigeria and abroad but also across other facets of professional and business circles were members of
+                    association fit in. His vision for creating professional forums and opportunities for networking,
+                    which would be transformative for LUCOSA most especially for younger alumni. His commitment to
+                    nurturing the growth of members in their respective careers is exceptional and exactly what we need.
+                    I wholeheartedly support his leadership. ”
+                </p>
+            </div>
+            <div class="endorsement-card card-rectangle">
+                <div class="endorser">
+                    <img src="#" alt="" class="endorser-image">
+                    <p class="endorser-name">Sir David Ibhawoh
+                    </p>
+                </div>
+                <p class="endorsement-paragraph">It gives me great pleasure to express my full support for High Chief
+                    Tosan Atle Aiboni's candidacy for President of the Lumen Christi Old Students Association (LUCOSA).
+
+                    Having known Tosan for over 35 years, I can attest to his unwavering professionalism and integrity.
+                    Our long-standing friendship has never compromised the lines of our professional relationship, a
+                    testament to his exceptional character. Tosan is not just a lawyer, friend, and confidant to me, but
+                    a pillar of reliability and astuteness. His innate ability to balance cordiality with astuteness
+                    makes him the ideal candidate to steer our alumni association towards greater heights.
+
+                    Under his leadership, I am confident that LUCOSA will undergo the necessary reformation it needs.
+                    Tosan's commitment to advancing the cause of our alumni by introducing forums for professional
+                    growth through networking is particularly exciting. This initiative not only aligns with my own
+                    values but has been a cornerstone of my success, and I believe it will greatly benefit our
+                    community.
+
+                    Moreover, Tosan's presidency could provide the perfect channel to connect talented alumni with
+                    potential opportunities within my organization, a possibility that has been challenging to realize
+                    in the past.
+
+                    I wholeheartedly endorse Tosan for President of LUCOSA and offer him my unwavering support. His
+                    vision for our association and his dedication to our collective progress assure me that we are on
+                    the brink of a new and dynamic chapter.</p>
+            </div>
+            <div class="endorsement-card card-rectangle">
+                <div class="endorser">
+                    <img src="tes4.jpg" alt="Endorser Image" class="endorser-image">
+                    <p class="endorser-name">Uyi Asuen
+                    </p>
+                </div>
+                <p class="endorsement-paragraph">“ Chief Tosan Aiboni Esq has demonstrated exceptional leadership in the
+                    growth, welfare, fostering bond and unity within LUCOSA. We together served together as Exco in
+                    Lucosa Lagos Chapter while he was Governor.His vision of inclusivity,bridging gaps and expansion has
+                    been a breath of fresh air. His efforts have helped unite us as we across borders, and I
+                    proudly endorse him. ”</p>
+            </div>
+            <div class="endorsement-card card-rectangle">
+                <div class="endorser">
+                    <img src="tes5.jpg" alt="Endorser Image" class="endorser-image">
+                    <p class="endorser-name">Francis Amadin -Bello</p>
+                </div>
+                <p class="endorsement-paragraph">“Chief Aiboni’s vision for LUCOSA ensures that younger alumni, like
+                    myself, have a voice and a role in the future of the association. His inclusion of the 2001–2024
+                    sets in leadership and decision-making processes shows his understanding of how to build a stronger,
+                    more united community. He is the leader who will continue to guide LUCOSA toward greatness, and from
+                    all of in the millennium we fully endorse you. ”
+                </p>
+            </div>
+        </div>
+    </section>
+    <STyle>
+        .endorsement-section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .endorsement-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .endorsement-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+        }
+
+        .endorsement-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+
+        .endorsement-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .endorser {
+            display: flex;
+            align-items: center;
+        }
+
+        .endorser-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .endorser-name {
+            font-weight: bold;
+        }
+
+        .endorsement-paragraph {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .endorsement-grid {
+                grid-template-columns: repeat(1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .endorsement-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Specific card sizes */
+
+
+        .card-rectangle {
+            grid-column: span 2;
+        }
+    </STyle>
+
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <img src="log.png" alt="Political Campaign Logo" style="height: 2em; width: 6em; ">
+
+
+
+            <address>
+                <br>
+
+                <a class="footer__btn">Endorsement</a>
+            </address>
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Vision for the Future</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Growth & Unity</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Communication</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Inclusion & Legacy</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Key Initiatives</h2>
+
+                <ul class="nav__ul nav__ul--extra">
+                    <li>
+                        <a href="#">Health & Well-being</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Business & Career Hub</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Alumni Building</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Endowment Fund</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Memory Healing</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Diaspora Chapters</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal & Policy</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms of Use</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div class="legal">
+            <p>&copy; 2024 . All rights reserved.</p>
+
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

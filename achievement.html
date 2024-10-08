@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        .hero {
+            width: 100%;
+            height: 40vh;
+            /* 40% of the viewport height */
+            background-image: url('img.jpg');
+            /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.692);
+
+            z-index: 2;
+        }
+
+        .hero-text {
+            font-size: 3em;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 2em;
+        }
+
+        .sub-text {
+            position: absolute;
+
+            font-size: 1.5em;
+            color: white;
+            font-style: italic;
+            text-align: center;
+            width: 100%;
+            font-family: 'Cursive', sans-serif;
+            /* Creative feel */
+        }
+
+        .achievements {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .intro-text {
+            margin-bottom: 2em;
+        }
+
+        .intro-text h2 {
+            font-size: 2em;
+
+            color: #333;
+        }
+
+        .intro-text p {
+            font-size: 1em;
+            font-style: italic;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card__container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5em;
+            margin-top: 2em;
+        }
+
+        .card__glass {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 1.5em;
+            text-align: left;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card__glass:hover {
+            transform: translateY(-10px);
+        }
+
+        .card__title {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .card__description {
+            margin-top: 0.5em;
+            font-size: 1.1em;
+            color: #444;
+        }
+    </style>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#">
+            <img src="log.png" alt="Political Campaign Logo" style="height: 2em; width: 6em; margin-left: 2em;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-green"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item">
+                    <a class=" nav-link" href="index.html" style="color: rgb(193, 193, 193);"><i
+                            class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" style="color: rgb(148, 152, 149);"> About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="achievement.html" style="color: rgb(147, 165, 147);"> Achievements</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pledge.html" style="color: rgb(147, 165, 147);">Pledge</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"></i> Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+    <div class="hero">
+        <div class="overlay">
+            <div class="hero-text">Achievements</div>
+            <div class="sub-text">Chief Tosan Atle Aiboni</div>
+        </div>
+    </div>
+
+
+    <section class="achievements">
+        <!-- Centered introductory text -->
+        <div class="intro-text">
+            <section class="achievements">
+                <!-- Centered introductory text -->
+                <div class="intro-text">
+                    <h2>Our Achievements as Governor, LUCOSA Lagos Chapter</h2>
+                    <p class="intro-summary">
+                        Upon taking leadership of LUCOSA Lagos, I faced significant challenges with low member turnout
+                        and financial instability. By the end of my tenure, we had transformed the chapter,
+                        strengthening membership engagement, financial growth, and community impact.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Glass card container -->
+        <div class="card__container bd-container">
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">1. Strengthened Membership Engagement</h3>
+                    <p class="card__description">Under my leadership, we consistently held monthly meetings,
+                        significantly increasing our membership strength. This practice set a standard for LUCOSA and
+                        encouraged a stronger bond within the chapter.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">2. Organized the First LUCOSA Job Fair</h3>
+                    <p class="card__description">As the host Governor, I organized the first-ever LUCOSA job fair. This
+                        event provided career opportunities and networking platforms for members, contributing
+                        significantly to the professional growth of LUCOSA.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">3. Prepared the Chapter’s First Audited Account Statements</h3>
+                    <p class="card__description">I ensured the preparation of the chapter’s first audited account
+                        statements upon handover, setting a precedent for transparent financial management.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">4. COVID-19 Palliative Support</h3>
+                    <p class="card__description">During the COVID-19 pandemic, we introduced a palliative program to
+                        support members affected by the crisis. This initiative highlighted our chapter’s commitment to
+                        the welfare of members during challenging times.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">5. Community Service Initiatives</h3>
+                    <p class="card__description">We conducted several outreach visits, including a visit to Hearts of
+                        Gold Children’s Hospice in Surulere, Lagos. This demonstrated the chapter's dedication to giving
+                        back to society.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">6. Employment Support Through Networking</h3>
+                    <p class="card__description">I led initiatives that facilitated employment opportunities for several
+                        members, showcasing the power of collaboration within our chapter.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">7. Welfare Initiatives</h3>
+                    <p class="card__description">We introduced welfare packages to support members during life events
+                        such as weddings, funerals, and other celebrations, fostering a deeper bond within the chapter.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">8. Financial Growth</h3>
+                    <p class="card__description">The chapter achieved increased revenue generation under my
+                        administration, leaving a substantial reserve for my successor.</p>
+                </div>
+            </div>
+
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">9. Development of a Membership Database</h3>
+                    <p class="card__description">We established a database to track members’ professional disciplines,
+                        fostering mutual support and enabling business promotion within the chapter.</p>
+                </div>
+            </div>
+            <div class="card__glass">
+                <div class="card__data">
+                    <h3 class="card__title">10. Welfare support</h3>
+                    <p class="card__description">Welfare support for Ex-teacher with physical impairment
+                        He lead the initiative in collaboration with the association to support Mr Cyril Ojeme a former
+                        teacher who was physically challenged to support his studies in the UK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <img src="log.png" alt="Political Campaign Logo" style="height: 2em; width: 6em; ">
+
+
+
+            <address>
+                <br>
+
+                <a class="footer__btn">Endorsement</a>
+            </address>
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Vision for the Future</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Growth & Unity</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Communication</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Inclusion & Legacy</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Key Initiatives</h2>
+
+                <ul class="nav__ul nav__ul--extra">
+                    <li>
+                        <a href="#">Health & Well-being</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Business & Career Hub</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Alumni Building</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Endowment Fund</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Memory Healing</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Diaspora Chapters</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal & Policy</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms of Use</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div class="legal">
+            <p>&copy; 2024 . All rights reserved.</p>
+
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
